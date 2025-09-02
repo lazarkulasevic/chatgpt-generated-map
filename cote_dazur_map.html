@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4c4e13c699d00bf6f24c1094dd25fd38 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4c4e13c699d00bf6f24c1094dd25fd38" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4c4e13c699d00bf6f24c1094dd25fd38 = L.map(
+                "map_4c4e13c699d00bf6f24c1094dd25fd38",
+                {
+                    center: [43.7, 7.25],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f965c2c57c4e30a97509402c588ecbbb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var marker_87f949e5a320786e786e7e8c9a831a35 = L.marker(
+                [43.6959, 7.2796],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_b6d04b65858d3339d648a5d1686e007b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_87f949e5a320786e786e7e8c9a831a35.setIcon(icon_b6d04b65858d3339d648a5d1686e007b);
+        
+    
+        var popup_36e1d05933dd0c94d75328bd136f1138 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02c452b2ee722e17b0f0356d10717589 = $(`<div id="html_02c452b2ee722e17b0f0356d10717589" style="width: 100.0%; height: 100.0%;">Castle Hill (Colline du Château): Najlepši panoramski pogled na Nicu; kafići pri dnu brda.</div>`)[0];
+            popup_36e1d05933dd0c94d75328bd136f1138.setContent(html_02c452b2ee722e17b0f0356d10717589);
+        
+
+        marker_87f949e5a320786e786e7e8c9a831a35.bindPopup(popup_36e1d05933dd0c94d75328bd136f1138)
+        ;
+
+        
+    
+    
+            marker_87f949e5a320786e786e7e8c9a831a35.bindTooltip(
+                `<div>
+                     Castle Hill (Colline du Château)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a99f60d85ca43e88ef495ebc2a8ec24f = L.marker(
+                [43.6951, 7.2849],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_c07b1c6d7d00a1518e094c60f2a67348 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a99f60d85ca43e88ef495ebc2a8ec24f.setIcon(icon_c07b1c6d7d00a1518e094c60f2a67348);
+        
+    
+        var popup_5639748ee5f5629040938e90a2395ffa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5adddc4233b13d68dcc3be48c877e14d = $(`<div id="html_5adddc4233b13d68dcc3be48c877e14d" style="width: 100.0%; height: 100.0%;">Le Plongeoir: Kafić/restoran na steni iznad mora — spektakl u Nicu.</div>`)[0];
+            popup_5639748ee5f5629040938e90a2395ffa.setContent(html_5adddc4233b13d68dcc3be48c877e14d);
+        
+
+        marker_a99f60d85ca43e88ef495ebc2a8ec24f.bindPopup(popup_5639748ee5f5629040938e90a2395ffa)
+        ;
+
+        
+    
+    
+            marker_a99f60d85ca43e88ef495ebc2a8ec24f.bindTooltip(
+                `<div>
+                     Le Plongeoir
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3090227eba17b2771a9692798d3ecfed = L.marker(
+                [43.7013, 7.2765],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_2a7d2d31a7a82392968e5544253e363a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3090227eba17b2771a9692798d3ecfed.setIcon(icon_2a7d2d31a7a82392968e5544253e363a);
+        
+    
+        var popup_17d68d22e014c4aa2b2d0713611f5fbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd988362c5543a0c80d549d5f8a1cda1 = $(`<div id="html_bd988362c5543a0c80d549d5f8a1cda1" style="width: 100.0%; height: 100.0%;">Café de Turin: Čuveno mesto za kafu i morske plodove, u centru Nice.</div>`)[0];
+            popup_17d68d22e014c4aa2b2d0713611f5fbc.setContent(html_bd988362c5543a0c80d549d5f8a1cda1);
+        
+
+        marker_3090227eba17b2771a9692798d3ecfed.bindPopup(popup_17d68d22e014c4aa2b2d0713611f5fbc)
+        ;
+
+        
+    
+    
+            marker_3090227eba17b2771a9692798d3ecfed.bindTooltip(
+                `<div>
+                     Café de Turin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea76c47f07da912b05c118eccf8dca12 = L.marker(
+                [43.7286, 7.3625],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_0371db72caf9b67d9bae981d40e025b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ea76c47f07da912b05c118eccf8dca12.setIcon(icon_0371db72caf9b67d9bae981d40e025b2);
+        
+    
+        var popup_4be75dbeb4a042c50b82f4c7edaddc1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccc3c9338633b602ff138e0fb8763740 = $(`<div id="html_ccc3c9338633b602ff138e0fb8763740" style="width: 100.0%; height: 100.0%;">Èze Exotic Garden: Botanička bašta sa kafićem i panoramom do Monaka.</div>`)[0];
+            popup_4be75dbeb4a042c50b82f4c7edaddc1f.setContent(html_ccc3c9338633b602ff138e0fb8763740);
+        
+
+        marker_ea76c47f07da912b05c118eccf8dca12.bindPopup(popup_4be75dbeb4a042c50b82f4c7edaddc1f)
+        ;
+
+        
+    
+    
+            marker_ea76c47f07da912b05c118eccf8dca12.bindTooltip(
+                `<div>
+                     Èze Exotic Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53036fc139c00f81aa778e30b4d139e5 = L.marker(
+                [43.7396, 7.4276],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_2988ca5bcb829a859858e5d6338c8e2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_53036fc139c00f81aa778e30b4d139e5.setIcon(icon_2988ca5bcb829a859858e5d6338c8e2d);
+        
+    
+        var popup_12d460276268b97ba7a09e6ffe27d8af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0f3614602f50b16833a23bfaf60d9f1 = $(`<div id="html_d0f3614602f50b16833a23bfaf60d9f1" style="width: 100.0%; height: 100.0%;">Café de Paris, Monte Carlo: Ikonično mesto naspram Kazina, sa terasom za posmatranje Rolls Royce-a i ljudi.</div>`)[0];
+            popup_12d460276268b97ba7a09e6ffe27d8af.setContent(html_d0f3614602f50b16833a23bfaf60d9f1);
+        
+
+        marker_53036fc139c00f81aa778e30b4d139e5.bindPopup(popup_12d460276268b97ba7a09e6ffe27d8af)
+        ;
+
+        
+    
+    
+            marker_53036fc139c00f81aa778e30b4d139e5.bindTooltip(
+                `<div>
+                     Café de Paris, Monte Carlo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddb2f5e845f52f0b8332ad73adcedad2 = L.marker(
+                [43.7301, 7.4256],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_6e9e9372b37bd66775bc78627838166f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ddb2f5e845f52f0b8332ad73adcedad2.setIcon(icon_6e9e9372b37bd66775bc78627838166f);
+        
+    
+        var popup_a625fdcf275bcb313fa0cc3ba72fa3d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e15391092a5f5319ea799d8f3fe31298 = $(`<div id="html_e15391092a5f5319ea799d8f3fe31298" style="width: 100.0%; height: 100.0%;">Oceanographic Museum terrace café: Kafa sa pogledom na Mediteran.</div>`)[0];
+            popup_a625fdcf275bcb313fa0cc3ba72fa3d9.setContent(html_e15391092a5f5319ea799d8f3fe31298);
+        
+
+        marker_ddb2f5e845f52f0b8332ad73adcedad2.bindPopup(popup_a625fdcf275bcb313fa0cc3ba72fa3d9)
+        ;
+
+        
+    
+    
+            marker_ddb2f5e845f52f0b8332ad73adcedad2.bindTooltip(
+                `<div>
+                     Oceanographic Museum terrace café
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cf6f3eb4aabb59aa95f682e9921cc87 = L.marker(
+                [43.5815, 7.1286],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_71bd9aed565123dd16f0288ec9c9c142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4cf6f3eb4aabb59aa95f682e9921cc87.setIcon(icon_71bd9aed565123dd16f0288ec9c9c142);
+        
+    
+        var popup_3c9a95ae5cdff6ccb919186fe3e9ded8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28022631f69e01c2e7fea75f7c872f9a = $(`<div id="html_28022631f69e01c2e7fea75f7c872f9a" style="width: 100.0%; height: 100.0%;">Café on Antibes Ramparts: Pogled na more i stari grad Antiba.</div>`)[0];
+            popup_3c9a95ae5cdff6ccb919186fe3e9ded8.setContent(html_28022631f69e01c2e7fea75f7c872f9a);
+        
+
+        marker_4cf6f3eb4aabb59aa95f682e9921cc87.bindPopup(popup_3c9a95ae5cdff6ccb919186fe3e9ded8)
+        ;
+
+        
+    
+    
+            marker_4cf6f3eb4aabb59aa95f682e9921cc87.bindTooltip(
+                `<div>
+                     Café on Antibes Ramparts
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81e0ee6b2963455e4d99684b41c2926a = L.marker(
+                [43.5528, 7.0174],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_491b57a7c1768da760610428cdf2e60a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_81e0ee6b2963455e4d99684b41c2926a.setIcon(icon_491b57a7c1768da760610428cdf2e60a);
+        
+    
+        var popup_b3db3a0666af5eec330661dd10445dae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a0f5f5b41c110455603635be2aec305 = $(`<div id="html_9a0f5f5b41c110455603635be2aec305" style="width: 100.0%; height: 100.0%;">Café on La Croisette: Šetnja i kafa na čuvenom bulervaru uz more.</div>`)[0];
+            popup_b3db3a0666af5eec330661dd10445dae.setContent(html_9a0f5f5b41c110455603635be2aec305);
+        
+
+        marker_81e0ee6b2963455e4d99684b41c2926a.bindPopup(popup_b3db3a0666af5eec330661dd10445dae)
+        ;
+
+        
+    
+    
+            marker_81e0ee6b2963455e4d99684b41c2926a.bindTooltip(
+                `<div>
+                     Café on La Croisette
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3eee12580a6151a1e0e362d57b2f3c4a = L.marker(
+                [43.2728, 6.6399],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_f44c07fbbe5e37e706416f7b785403c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3eee12580a6151a1e0e362d57b2f3c4a.setIcon(icon_f44c07fbbe5e37e706416f7b785403c9);
+        
+    
+        var popup_775defca006e28f5b8243d63bb837751 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7fb73fd2d7ef6e78eb6719c47885525 = $(`<div id="html_a7fb73fd2d7ef6e78eb6719c47885525" style="width: 100.0%; height: 100.0%;">Senequier: Najpoznatija kafeterija u luci Saint-Tropeza, crvene stolice, pogled na jahte.</div>`)[0];
+            popup_775defca006e28f5b8243d63bb837751.setContent(html_a7fb73fd2d7ef6e78eb6719c47885525);
+        
+
+        marker_3eee12580a6151a1e0e362d57b2f3c4a.bindPopup(popup_775defca006e28f5b8243d63bb837751)
+        ;
+
+        
+    
+    
+            marker_3eee12580a6151a1e0e362d57b2f3c4a.bindTooltip(
+                `<div>
+                     Senequier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96c7054137549ad5d628ce757de37f22 = L.marker(
+                [43.2742, 6.6437],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_7d84030dba3d443a4db29370e9f595e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_96c7054137549ad5d628ce757de37f22.setIcon(icon_7d84030dba3d443a4db29370e9f595e7);
+        
+    
+        var popup_0f2dd7f3ebe5437226b8200e54254423 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b48346d1a7d72a353e842d5acf5d5f02 = $(`<div id="html_b48346d1a7d72a353e842d5acf5d5f02" style="width: 100.0%; height: 100.0%;">Citadelle de Saint-Tropez café spot: Panorama celog zaliva uz kafu sa Citadele.</div>`)[0];
+            popup_0f2dd7f3ebe5437226b8200e54254423.setContent(html_b48346d1a7d72a353e842d5acf5d5f02);
+        
+
+        marker_96c7054137549ad5d628ce757de37f22.bindPopup(popup_0f2dd7f3ebe5437226b8200e54254423)
+        ;
+
+        
+    
+    
+            marker_96c7054137549ad5d628ce757de37f22.bindTooltip(
+                `<div>
+                     Citadelle de Saint-Tropez café spot
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a815a2576f4d52e61ff76c996302362 = L.marker(
+                [43.2885, 5.3619],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_8ba12ebd143156b7d5be454523008f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0a815a2576f4d52e61ff76c996302362.setIcon(icon_8ba12ebd143156b7d5be454523008f30);
+        
+    
+        var popup_6065f7c697133d5181469918d3c56e9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a036b0bd4edd593aa3012bce307fa567 = $(`<div id="html_a036b0bd4edd593aa3012bce307fa567" style="width: 100.0%; height: 100.0%;">Le Café de l'Abbaye: Najlepša terasa uz Vieux-Port, zalazak sunca.</div>`)[0];
+            popup_6065f7c697133d5181469918d3c56e9a.setContent(html_a036b0bd4edd593aa3012bce307fa567);
+        
+
+        marker_0a815a2576f4d52e61ff76c996302362.bindPopup(popup_6065f7c697133d5181469918d3c56e9a)
+        ;
+
+        
+    
+    
+            marker_0a815a2576f4d52e61ff76c996302362.bindTooltip(
+                `<div>
+                     Le Café de l'Abbaye
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e968a30d794a329b22dfaab535362a59 = L.marker(
+                [43.2965, 5.3609],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_44b6e1645bf353ec9ed9b56a1ec24321 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e968a30d794a329b22dfaab535362a59.setIcon(icon_44b6e1645bf353ec9ed9b56a1ec24321);
+        
+    
+        var popup_6b85321acfc6daa64a015873859f7591 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb3ca33ae29aa03beb1b2ebfb1732308 = $(`<div id="html_fb3ca33ae29aa03beb1b2ebfb1732308" style="width: 100.0%; height: 100.0%;">Terrace at MuCEM: Krovna terasa muzeja sa pogledom na more i Fort Saint-Jean.</div>`)[0];
+            popup_6b85321acfc6daa64a015873859f7591.setContent(html_fb3ca33ae29aa03beb1b2ebfb1732308);
+        
+
+        marker_e968a30d794a329b22dfaab535362a59.bindPopup(popup_6b85321acfc6daa64a015873859f7591)
+        ;
+
+        
+    
+    
+            marker_e968a30d794a329b22dfaab535362a59.bindTooltip(
+                `<div>
+                     Terrace at MuCEM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9af2ea4a90b037fa7e87fbcb4cdbb0bb = L.marker(
+                [43.2838, 5.3394],
+                {}
+            ).addTo(map_4c4e13c699d00bf6f24c1094dd25fd38);
+        
+    
+            var icon_3a6290e5cfdacd8dd8f500f4fbaf5cc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9af2ea4a90b037fa7e87fbcb4cdbb0bb.setIcon(icon_3a6290e5cfdacd8dd8f500f4fbaf5cc9);
+        
+    
+        var popup_71d8947faaae1ff102d1af670186ae15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5467ef405280a1e06ba7729399ffa053 = $(`<div id="html_5467ef405280a1e06ba7729399ffa053" style="width: 100.0%; height: 100.0%;">Vallon des Auffes café: Mala ribarska luka sa autentičnim kafićima i pogledom na more.</div>`)[0];
+            popup_71d8947faaae1ff102d1af670186ae15.setContent(html_5467ef405280a1e06ba7729399ffa053);
+        
+
+        marker_9af2ea4a90b037fa7e87fbcb4cdbb0bb.bindPopup(popup_71d8947faaae1ff102d1af670186ae15)
+        ;
+
+        
+    
+    
+            marker_9af2ea4a90b037fa7e87fbcb4cdbb0bb.bindTooltip(
+                `<div>
+                     Vallon des Auffes café
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
